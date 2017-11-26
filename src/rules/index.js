@@ -6,6 +6,7 @@ import { EnumValuesSortedAlphabetically } from './enum_values_sorted_alphabetica
 import { EnumValuesAllCaps } from './enum_values_all_caps';
 import { InputObjectValuesHaveDescriptions } from '../../src/rules/input_object_values_have_descriptions';
 import { EnumValuesHaveDescriptions } from '../../src/rules/enum_values_have_descriptions';
+import { FieldNamesAreLowerCamelCased } from '../../src/rules/field_names_are_lower_camel_cased';
 
 module.exports = [
   EnumValuesSortedAlphabetically,
@@ -16,4 +17,5 @@ module.exports = [
   TypesAreCapitalized,
   InputObjectValuesHaveDescriptions,
   EnumValuesHaveDescriptions,
+  FieldNamesAreLowerCamelCased,
 ];

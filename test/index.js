@@ -19,6 +19,7 @@ require('./rules/types_are_capitalized');
 require('./rules/defined_types_are_used');
 require('./rules/input_object_values_have_descriptions');
 require('./rules/enum_values_have_descriptions');
+require('./rules/field_names_are_lower_camel_cased');
 require('./config/rc_file/test');
 require('./config/package_json/test');
 require('./config/js_file/test');
